@@ -235,9 +235,8 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
-  bcrypt (~> 3.1.7)
-  bootstrap-sass
   bcrypt
+  bootstrap-sass
   byebug
   coffee-rails
   devise
@@ -259,8 +258,6 @@ DEPENDENCIES
   thin
   turbolinks
   typus!
-  uglifier (>= 1.3.0)
-  web-console (~> 2.0)
   uglifier
   web-console
   websocket-rails
