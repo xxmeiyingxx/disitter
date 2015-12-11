@@ -56,9 +56,11 @@ group :production do
 end
 
 gem 'devise'
+gem "typus", github: "typus/typus"
 gem 'websocket-rails'
 gem 'thin'
 gem 'annotate'
 gem 'simplecov'
 gem 'will_paginate'
 gem 'rails-erd'
+gem 'bootstrap-sass'

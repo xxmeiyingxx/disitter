@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/typus/typus.git
+  revision: 493842a2039d528664d0afe475a127fabb361b6e
+  specs:
+    typus (4.0.0.beta1)
+      bcrypt (~> 3.1.10)
+      rails (~> 4.2.4)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -41,9 +49,15 @@ GEM
       rake (~> 10.4)
     ansi (1.5.0)
     arel (6.0.3)
+    autoprefixer-rails (6.1.2)
+      execjs
+      json
     bcrypt (3.1.10)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.3.6)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     builder (3.2.2)
     byebug (8.2.1)
     choice (0.2.0)
@@ -249,6 +263,7 @@ PLATFORMS
 DEPENDENCIES
   annotate
   bcrypt (~> 3.1.7)
+  bootstrap-sass
   byebug
   coffee-rails (~> 4.1.0)
   devise
@@ -268,6 +283,7 @@ DEPENDENCIES
   sqlite3
   thin
   turbolinks
+  typus!
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
   websocket-rails
